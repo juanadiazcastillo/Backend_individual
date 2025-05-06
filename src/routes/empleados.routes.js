@@ -4,6 +4,6 @@ import {  obtenerEmpleados } from '../controllers/empleados.controller.js';
 const router = Router();
 
 // Ruta para obtener todos los clientes
-router.get('/empleados', obtenerEmpleados);
+router.get('/empleado', obtenerEmpleados);
 
 export default router;
